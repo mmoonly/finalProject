@@ -19,6 +19,7 @@ import javax.persistence.Table;
 @Setter
 @Getter
 @NoArgsConstructor
+
 public class User extends AEntity {
 
     @Column(name = "login")
