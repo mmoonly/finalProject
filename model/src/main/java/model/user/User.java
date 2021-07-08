@@ -1,6 +1,5 @@
 package model.user;
 
-
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -19,7 +18,6 @@ import javax.persistence.Table;
 @Setter
 @Getter
 @NoArgsConstructor
-
 public class User extends AEntity {
 
     @Column(name = "login")
